@@ -16,9 +16,7 @@
 @interface LJJNewfeaturesController()<UIScrollViewDelegate>
 
 @property (weak, nonatomic)UIScrollView     * scrollView;
-
 @property (weak, nonatomic)UIImageView      * bgImageView;
-
 @property (weak, nonatomic)UIPageControl    * pageControl;
 
 @end
@@ -30,7 +28,6 @@
     _bgImageView = (UIImageView *)self.view;
     [self.view setUserInteractionEnabled:YES];
 }
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -41,6 +38,7 @@
     [self setupNewfeatures];
 }
 
+#pragma mark - 添加视图
 #pragma mark 添加滚动视图
 - (void)setupScrollView {
     UIScrollView *scroll = [[UIScrollView alloc]initWithFrame:self.view.bounds];
@@ -106,17 +104,17 @@
     [self.scrollView setContentSize:CGSizeMake(self.view.bounds.size.width * kNewfeatureCount, 0)];
 }
 
-#pragma mark 点击事件
+#pragma mark - 点击事件
+#pragma mark 点击提交
 - (void)clickCommit {
     
 }
-
+#pragma mark 点击选中发布
 - (void)selectedSend:(UIButton *)sender {
     sender.selected = !sender.isSelected;
 }
-
+#pragma mark - scrollView 代理事件
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-//    NSLog(@"1");
     int index = scrollView.contentOffset.x / self.view.bounds.size.width;
     [self.pageControl setCurrentPage:index];
 }
