@@ -76,6 +76,7 @@
 		BFE607081866C64A00FB336E /* More.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = More.plist; sourceTree = "<group>"; };
 		BFE6070A1866D27600FB336E /* UIImage+Ljj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ljj.h"; sourceTree = "<group>"; };
 		BFE6070B1866D27600FB336E /* UIImage+Ljj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ljj.m"; sourceTree = "<group>"; };
+		BFF749F41866D78600D3AA5F /* LJJCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJCommand.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +204,7 @@
 				BFE606CC1866983E00FB336E /* LJJAppDelegate.h */,
 				BFE606CD1866983E00FB336E /* LJJAppDelegate.m */,
 				BFE606CE1866983E00FB336E /* main.m */,
+				BFF749F41866D78600D3AA5F /* LJJCommand.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -730,6 +732,7 @@
 				BFE606C01866904900FB336E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFE606C11866904900FB336E /* Build configuration list for PBXNativeTarget "WBLJJTests" */ = {
 			isa = XCConfigurationList;
@@ -738,6 +741,7 @@
 				BFE606C31866904900FB336E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -24,7 +24,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"更多";
-    [self.view setBackgroundColor:[UIColor colorWithRed:230/255.0 green:230/255.0 blue:230/255.0 alpha:1.]];
+    //设置背景颜色
+    [self.view setBackgroundColor:kMoreBGColor];
     
     //获取数据
     [self loadMoreData];
@@ -87,4 +88,8 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
     return 2;
 }
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 @end
