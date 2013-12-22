@@ -21,6 +21,14 @@
 		BFE606D11866983E00FB336E /* LJJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606CD1866983E00FB336E /* LJJAppDelegate.m */; };
 		BFE606D21866983E00FB336E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606CE1866983E00FB336E /* main.m */; };
 		BFE606DA1866A66000FB336E /* UIButton+LJJ.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606D91866A66000FB336E /* UIButton+LJJ.m */; };
+		BFE606E11866B69B00FB336E /* LJJMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606E01866B69B00FB336E /* LJJMainController.m */; };
+		BFE606E31866B6CE00FB336E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE606E21866B6CE00FB336E /* Storyboard.storyboard */; };
+		BFE606FA1866BA7B00FB336E /* LJJHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606F91866BA7B00FB336E /* LJJHomeController.m */; };
+		BFE606FD1866C1D100FB336E /* LJJMoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606FC1866C1D100FB336E /* LJJMoreController.m */; };
+		BFE607041866C62100FB336E /* LJJBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606FF1866C62100FB336E /* LJJBtn.m */; };
+		BFE607051866C62100FB336E /* LJJMoveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE607011866C62100FB336E /* LJJMoveCell.m */; };
+		BFE607091866C64A00FB336E /* More.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFE607081866C64A00FB336E /* More.plist */; };
+		BFE6070C1866D27600FB336E /* UIImage+Ljj.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE6070B1866D27600FB336E /* UIImage+Ljj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,20 @@
 		BFE606D3186698BA00FB336E /* WBLJJ-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBLJJ-Prefix.pch"; sourceTree = "<group>"; };
 		BFE606D81866A66000FB336E /* UIButton+LJJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LJJ.h"; sourceTree = "<group>"; };
 		BFE606D91866A66000FB336E /* UIButton+LJJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LJJ.m"; sourceTree = "<group>"; };
+		BFE606DF1866B69B00FB336E /* LJJMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJMainController.h; sourceTree = "<group>"; };
+		BFE606E01866B69B00FB336E /* LJJMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJMainController.m; sourceTree = "<group>"; };
+		BFE606E21866B6CE00FB336E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		BFE606F81866BA7B00FB336E /* LJJHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJHomeController.h; sourceTree = "<group>"; };
+		BFE606F91866BA7B00FB336E /* LJJHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJHomeController.m; sourceTree = "<group>"; };
+		BFE606FB1866C1D100FB336E /* LJJMoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJMoreController.h; sourceTree = "<group>"; };
+		BFE606FC1866C1D100FB336E /* LJJMoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJMoreController.m; sourceTree = "<group>"; };
+		BFE606FE1866C62100FB336E /* LJJBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJBtn.h; sourceTree = "<group>"; };
+		BFE606FF1866C62100FB336E /* LJJBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJBtn.m; sourceTree = "<group>"; };
+		BFE607001866C62100FB336E /* LJJMoveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJMoveCell.h; sourceTree = "<group>"; };
+		BFE607011866C62100FB336E /* LJJMoveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJMoveCell.m; sourceTree = "<group>"; };
+		BFE607081866C64A00FB336E /* More.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = More.plist; sourceTree = "<group>"; };
+		BFE6070A1866D27600FB336E /* UIImage+Ljj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ljj.h"; sourceTree = "<group>"; };
+		BFE6070B1866D27600FB336E /* UIImage+Ljj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ljj.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,9 +145,11 @@
 		BFE6069C1866904800FB336E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BFE607071866C64A00FB336E /* Data */,
 				BFE606D3186698BA00FB336E /* WBLJJ-Prefix.pch */,
 				BFE6069D1866904800FB336E /* WBLJJ-Info.plist */,
 				BFE6069E1866904800FB336E /* InfoPlist.strings */,
+				BFE606E21866B6CE00FB336E /* Storyboard.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,6 +175,12 @@
 		BFE606C71866983E00FB336E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BFE606E41866B8DF00FB336E /* Home */,
+				BFE606E81866B8DF00FB336E /* Message */,
+				BFE606EC1866B8DF00FB336E /* Mine */,
+				BFE606F01866B8DF00FB336E /* More */,
+				BFE606F41866B8DF00FB336E /* Plaza */,
+				BFE606DB1866B68700FB336E /* Main */,
 				BFE606C81866983E00FB336E /* Newfeatures */,
 				BFE606CB1866983E00FB336E /* Other */,
 			);
@@ -180,10 +210,216 @@
 		BFE606D41866990400FB336E /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				BFE6070A1866D27600FB336E /* UIImage+Ljj.h */,
+				BFE6070B1866D27600FB336E /* UIImage+Ljj.m */,
 				BFE606D81866A66000FB336E /* UIButton+LJJ.h */,
 				BFE606D91866A66000FB336E /* UIButton+LJJ.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		BFE606DB1866B68700FB336E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606DC1866B68700FB336E /* Controller */,
+				BFE606DD1866B68700FB336E /* Model */,
+				BFE606DE1866B68700FB336E /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BFE606DC1866B68700FB336E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606DF1866B69B00FB336E /* LJJMainController.h */,
+				BFE606E01866B69B00FB336E /* LJJMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFE606DD1866B68700FB336E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFE606DE1866B68700FB336E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFE606E41866B8DF00FB336E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606E51866B8DF00FB336E /* Controller */,
+				BFE606E61866B8DF00FB336E /* Model */,
+				BFE606E71866B8DF00FB336E /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BFE606E51866B8DF00FB336E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606F81866BA7B00FB336E /* LJJHomeController.h */,
+				BFE606F91866BA7B00FB336E /* LJJHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFE606E61866B8DF00FB336E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFE606E71866B8DF00FB336E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFE606E81866B8DF00FB336E /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606E91866B8DF00FB336E /* Controller */,
+				BFE606EA1866B8DF00FB336E /* Model */,
+				BFE606EB1866B8DF00FB336E /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		BFE606E91866B8DF00FB336E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFE606EA1866B8DF00FB336E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFE606EB1866B8DF00FB336E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFE606EC1866B8DF00FB336E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606ED1866B8DF00FB336E /* Controller */,
+				BFE606EE1866B8DF00FB336E /* Model */,
+				BFE606EF1866B8DF00FB336E /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		BFE606ED1866B8DF00FB336E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFE606EE1866B8DF00FB336E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFE606EF1866B8DF00FB336E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFE606F01866B8DF00FB336E /* More */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606F11866B8DF00FB336E /* Controller */,
+				BFE606F21866B8DF00FB336E /* Model */,
+				BFE606F31866B8DF00FB336E /* View */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		BFE606F11866B8DF00FB336E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606FB1866C1D100FB336E /* LJJMoreController.h */,
+				BFE606FC1866C1D100FB336E /* LJJMoreController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFE606F21866B8DF00FB336E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFE606F31866B8DF00FB336E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606FE1866C62100FB336E /* LJJBtn.h */,
+				BFE606FF1866C62100FB336E /* LJJBtn.m */,
+				BFE607001866C62100FB336E /* LJJMoveCell.h */,
+				BFE607011866C62100FB336E /* LJJMoveCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFE606F41866B8DF00FB336E /* Plaza */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606F51866B8DF00FB336E /* Controller */,
+				BFE606F61866B8DF00FB336E /* Model */,
+				BFE606F71866B8DF00FB336E /* View */,
+			);
+			path = Plaza;
+			sourceTree = "<group>";
+		};
+		BFE606F51866B8DF00FB336E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFE606F61866B8DF00FB336E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFE606F71866B8DF00FB336E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFE607071866C64A00FB336E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BFE607081866C64A00FB336E /* More.plist */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +500,8 @@
 			files = (
 				BFE606A01866904800FB336E /* InfoPlist.strings in Resources */,
 				BFE606A81866904900FB336E /* Images.xcassets in Resources */,
+				BFE606E31866B6CE00FB336E /* Storyboard.storyboard in Resources */,
+				BFE607091866C64A00FB336E /* More.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +520,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE607051866C62100FB336E /* LJJMoveCell.m in Sources */,
 				BFE606DA1866A66000FB336E /* UIButton+LJJ.m in Sources */,
+				BFE6070C1866D27600FB336E /* UIImage+Ljj.m in Sources */,
 				BFE606D01866983E00FB336E /* LJJNewfeaturesController.m in Sources */,
 				BFE606D21866983E00FB336E /* main.m in Sources */,
+				BFE606FA1866BA7B00FB336E /* LJJHomeController.m in Sources */,
+				BFE606FD1866C1D100FB336E /* LJJMoreController.m in Sources */,
+				BFE606E11866B69B00FB336E /* LJJMainController.m in Sources */,
 				BFE606D11866983E00FB336E /* LJJAppDelegate.m in Sources */,
+				BFE607041866C62100FB336E /* LJJBtn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
