@@ -11,14 +11,16 @@
 		BFE606981866904800FB336E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE606971866904800FB336E /* CoreGraphics.framework */; };
 		BFE6069A1866904800FB336E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE606991866904800FB336E /* UIKit.framework */; };
 		BFE606A01866904800FB336E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFE6069E1866904800FB336E /* InfoPlist.strings */; };
-		BFE606A21866904900FB336E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606A11866904900FB336E /* main.m */; };
-		BFE606A61866904900FB336E /* LJJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606A51866904900FB336E /* LJJAppDelegate.m */; };
 		BFE606A81866904900FB336E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE606A71866904900FB336E /* Images.xcassets */; };
 		BFE606AF1866904900FB336E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE606AE1866904900FB336E /* XCTest.framework */; };
 		BFE606B01866904900FB336E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE606951866904800FB336E /* Foundation.framework */; };
 		BFE606B11866904900FB336E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE606991866904800FB336E /* UIKit.framework */; };
 		BFE606B91866904900FB336E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFE606B71866904900FB336E /* InfoPlist.strings */; };
 		BFE606BB1866904900FB336E /* WBLJJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606BA1866904900FB336E /* WBLJJTests.m */; };
+		BFE606D01866983E00FB336E /* LJJNewfeaturesController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606CA1866983E00FB336E /* LJJNewfeaturesController.m */; };
+		BFE606D11866983E00FB336E /* LJJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606CD1866983E00FB336E /* LJJAppDelegate.m */; };
+		BFE606D21866983E00FB336E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606CE1866983E00FB336E /* main.m */; };
+		BFE606DA1866A66000FB336E /* UIButton+LJJ.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE606D91866A66000FB336E /* UIButton+LJJ.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +40,20 @@
 		BFE606991866904800FB336E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFE6069D1866904800FB336E /* WBLJJ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WBLJJ-Info.plist"; sourceTree = "<group>"; };
 		BFE6069F1866904800FB336E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BFE606A11866904900FB336E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BFE606A31866904900FB336E /* WBLJJ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WBLJJ-Prefix.pch"; sourceTree = "<group>"; };
-		BFE606A41866904900FB336E /* LJJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJJAppDelegate.h; sourceTree = "<group>"; };
-		BFE606A51866904900FB336E /* LJJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJJAppDelegate.m; sourceTree = "<group>"; };
 		BFE606A71866904900FB336E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BFE606AD1866904900FB336E /* WBLJJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBLJJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE606AE1866904900FB336E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BFE606B61866904900FB336E /* WBLJJTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WBLJJTests-Info.plist"; sourceTree = "<group>"; };
 		BFE606B81866904900FB336E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFE606BA1866904900FB336E /* WBLJJTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBLJJTests.m; sourceTree = "<group>"; };
+		BFE606C91866983E00FB336E /* LJJNewfeaturesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJNewfeaturesController.h; sourceTree = "<group>"; };
+		BFE606CA1866983E00FB336E /* LJJNewfeaturesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJNewfeaturesController.m; sourceTree = "<group>"; };
+		BFE606CC1866983E00FB336E /* LJJAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJJAppDelegate.h; sourceTree = "<group>"; };
+		BFE606CD1866983E00FB336E /* LJJAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJJAppDelegate.m; sourceTree = "<group>"; };
+		BFE606CE1866983E00FB336E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFE606D3186698BA00FB336E /* WBLJJ-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBLJJ-Prefix.pch"; sourceTree = "<group>"; };
+		BFE606D81866A66000FB336E /* UIButton+LJJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LJJ.h"; sourceTree = "<group>"; };
+		BFE606D91866A66000FB336E /* UIButton+LJJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LJJ.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +113,7 @@
 		BFE6069B1866904800FB336E /* WBLJJ */ = {
 			isa = PBXGroup;
 			children = (
-				BFE606A41866904900FB336E /* LJJAppDelegate.h */,
-				BFE606A51866904900FB336E /* LJJAppDelegate.m */,
+				BFE606C71866983E00FB336E /* Classes */,
 				BFE606A71866904900FB336E /* Images.xcassets */,
 				BFE6069C1866904800FB336E /* Supporting Files */,
 			);
@@ -118,10 +123,9 @@
 		BFE6069C1866904800FB336E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BFE606D3186698BA00FB336E /* WBLJJ-Prefix.pch */,
 				BFE6069D1866904800FB336E /* WBLJJ-Info.plist */,
 				BFE6069E1866904800FB336E /* InfoPlist.strings */,
-				BFE606A11866904900FB336E /* main.m */,
-				BFE606A31866904900FB336E /* WBLJJ-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +146,44 @@
 				BFE606B71866904900FB336E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFE606C71866983E00FB336E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606C81866983E00FB336E /* Newfeatures */,
+				BFE606CB1866983E00FB336E /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BFE606C81866983E00FB336E /* Newfeatures */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606C91866983E00FB336E /* LJJNewfeaturesController.h */,
+				BFE606CA1866983E00FB336E /* LJJNewfeaturesController.m */,
+			);
+			path = Newfeatures;
+			sourceTree = "<group>";
+		};
+		BFE606CB1866983E00FB336E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606D41866990400FB336E /* Tool */,
+				BFE606CC1866983E00FB336E /* LJJAppDelegate.h */,
+				BFE606CD1866983E00FB336E /* LJJAppDelegate.m */,
+				BFE606CE1866983E00FB336E /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BFE606D41866990400FB336E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BFE606D81866A66000FB336E /* UIButton+LJJ.h */,
+				BFE606D91866A66000FB336E /* UIButton+LJJ.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE606A21866904900FB336E /* main.m in Sources */,
-				BFE606A61866904900FB336E /* LJJAppDelegate.m in Sources */,
+				BFE606DA1866A66000FB336E /* UIButton+LJJ.m in Sources */,
+				BFE606D01866983E00FB336E /* LJJNewfeaturesController.m in Sources */,
+				BFE606D21866983E00FB336E /* main.m in Sources */,
+				BFE606D11866983E00FB336E /* LJJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

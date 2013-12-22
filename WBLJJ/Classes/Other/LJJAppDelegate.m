@@ -8,6 +8,8 @@
 
 #import "LJJAppDelegate.h"
 
+#import "LJJNewfeaturesController.h"
+
 @implementation LJJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,6 +17,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    self.window.rootViewController = [[LJJNewfeaturesController alloc]init];
+    
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
