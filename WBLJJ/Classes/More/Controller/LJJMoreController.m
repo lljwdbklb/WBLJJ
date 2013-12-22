@@ -17,7 +17,7 @@
 
 @implementation LJJMoreController
 
-- (id)initWithStyle:(UITableViewStyle)style {
+- (id)initWithStyle:(UITableViewStyle)style {//默认是分组
     return [super initWithStyle:UITableViewStyleGrouped];
 }
 
@@ -26,6 +26,8 @@
     self.title = @"更多";
     //设置背景颜色
     [self.view setBackgroundColor:kMoreBGColor];
+    //设置表格不要分割线
+    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     
     //获取数据
     [self loadMoreData];
@@ -47,7 +49,6 @@
     NSString * path = [bundle pathForResource:@"More" ofType:@"plist"];
     NSArray * array = [NSArray arrayWithContentsOfFile:path];
     _dataList = array;
-    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
 }
 #pragma mark - tableview数据源
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -66,13 +67,13 @@
     }
     
     NSArray * array =_dataList[indexPath.section];
-    if (array.count == 1) {
+    if (array.count == 1) {//该组只有一条数据
         [cell setType:kLJJMoveCellOnce];
-    } else if(indexPath.row == 0) {
+    } else if(indexPath.row == 0) {//是该组的第一条数据
         [cell setType:kLJJMoveCellTop];
-    } else if (indexPath.row == array.count - 1){
+    } else if (indexPath.row == array.count - 1){//是该组最后一条数据
         [cell setType:kLJJMoveCellBottom];
-    } else {
+    } else {//是上面判断都不是的数据
         [cell setType:kLJJMoveCellMiddle];
     }
     
@@ -81,13 +82,16 @@
 }
 
 #pragma mark - tableview代理
+#pragma mark 这只头高度
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    if (section == 0) return 2;
+//    if (section == 0) return 2;
     return 2;
 }
+#pragma mark 这只尾高度
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
     return 2;
 }
+#pragma mark 点击事件
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
