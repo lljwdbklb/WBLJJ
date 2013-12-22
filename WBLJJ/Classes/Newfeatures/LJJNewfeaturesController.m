@@ -9,7 +9,14 @@
 #import "LJJNewfeaturesController.h"
 
 #import "UIButton+LJJ.h"
+
+#import "LJJOAuth.h"
+
+#import "LJJOAuthTool.h"
+
 #import "LJJMainController.h"
+#import "LJJOAuthController.h"
+
 
 //4张行特性图片
 #define kNewfeatureCount 4
@@ -108,7 +115,11 @@
 #pragma mark - 点击事件
 #pragma mark 点击提交
 - (void)clickCommit {
-    self.view.window.rootViewController = [[LJJMainController alloc]init];
+    if ([LJJOAuthTool sharedLJJOAuthTool].oauth.token) {//token存在
+        self.view.window.rootViewController = [[LJJMainController alloc]init];
+    } else {//token 不存在
+        self.view.window.rootViewController = [[LJJOAuthController alloc]init];
+    }
 }
 #pragma mark 点击选中发布
 - (void)selectedSend:(UIButton *)sender {

@@ -10,7 +10,10 @@
 
 #import "LJJNewfeaturesController.h"
 #import "LJJMainController.h"
-#import "LJJHomeController.h"
+#import "LJJOAuthController.h"
+
+#import "LJJOAuthTool.h"
+#import "LJJOAuth.h"
 
 #define kVersionKey @"version"
 
@@ -31,15 +34,18 @@
     NSString * version = [userDefaults stringForKey:kVersionKey];
     
     //判断版本号，来确定是否是第一次登陆
-//    if ([bundleVersion isEqualToString:version]) {//不是第一次登陆，跳转到主界面
-//        UITabBarController * main = [[LJJMainController alloc]init];
-//        self.window.rootViewController = main;
-//    } else {//第一次登陆，跳转到新特性界面
+    if ([bundleVersion isEqualToString:version]) {//不是第一次登陆，跳转到主界面
+        if ([LJJOAuthTool sharedLJJOAuthTool].oauth.token) {//token存在
+            self.window.rootViewController = [[LJJMainController alloc]init];
+        } else {//token 不存在
+            self.window.rootViewController = [[LJJOAuthController alloc]init];
+        }
+    } else {//第一次登陆，跳转到新特性界面
         self.window.rootViewController = [[LJJNewfeaturesController alloc]init];
         //保存到偏好设置中
-//        [userDefaults setObject:bundleVersion forKey:kVersionKey];
-//        [userDefaults synchronize];
-//    }
+        [userDefaults setObject:bundleVersion forKey:kVersionKey];
+        [userDefaults synchronize];
+    }
     
     [self.window makeKeyAndVisible];
     return YES;
