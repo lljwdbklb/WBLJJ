@@ -9,6 +9,7 @@
 #import "LJJNewfeaturesController.h"
 
 #import "UIButton+LJJ.h"
+#import "LJJMainController.h"
 
 //4张行特性图片
 #define kNewfeatureCount 4
@@ -107,7 +108,7 @@
 #pragma mark - 点击事件
 #pragma mark 点击提交
 - (void)clickCommit {
-    
+    self.view.window.rootViewController = [[LJJMainController alloc]init];
 }
 #pragma mark 点击选中发布
 - (void)selectedSend:(UIButton *)sender {
@@ -118,5 +119,9 @@
     int index = scrollView.contentOffset.x / self.view.bounds.size.width;
     [self.pageControl setCurrentPage:index];
 }
+
+//- (void)dealloc {
+//    NSLog(@"被释放");
+//}
 
 @end
